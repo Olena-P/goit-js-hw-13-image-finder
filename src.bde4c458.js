@@ -23,4 +23,4 @@ var t,e=arguments[3];!function(e,n){"object"==typeof exports&&"undefined"!=typeo
 },{"./renderGalery":"JqgU","./refs":"VyiV"}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./js/inputListener");
 },{"./sass/main.scss":"clu1","./js/inputListener":"yMmV"}]},{},["Focm"], null)
-//# sourceMappingURL=/goit-js-hw-13-image-finder/src.bf81174b.js.map
+//# sourceMappingURL=/goit-js-hw-13-image-finder/src.bde4c458.js.map

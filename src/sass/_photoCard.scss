@@ -1,0 +1,48 @@
+.photo-card__img {
+  display: block;
+  //   position: relative;
+  width: 320px;
+  height: 210px;
+  margin: auto;
+
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+    box-shadow: 0 0 5px #0bf4f3, 0 0 10px #0bf4f3, 0 0 15px #0bf4f3, 0 0 20px #0bf4f3,
+      0 0 30px #0bf4f3;
+  }
+}
+
+.stats {
+  display: flex;
+  width: 200px;
+  padding-top: 15px;
+  justify-content: center;
+  margin: auto;
+  color: #fff;
+}
+
+.stats-item {
+  display: block;
+  margin-right: auto;
+  align-items: baseline;
+  padding: 0 5px;
+  display: flex;
+  align-items: center;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  margin-right: 2px;
+}

@@ -2,8 +2,8 @@
 
 Страница должна автоматически плавно проскроливаться после рендера изображений, чтобы перевести пользователя на следующие загруженные изображения. Используй метод Element.scrollIntoView(). */
 
-const element = document.getElementById('.my-element-selector');
-element.scrollIntoView({
-  behavior: 'smooth',
-  block: 'end',
-});
+// const element = document.getElementById('.my-element-selector');
+// element.scrollIntoView({
+//   behavior: 'smooth',
+//   block: 'end',
+// });

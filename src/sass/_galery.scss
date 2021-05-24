@@ -1,0 +1,33 @@
+body {
+  background: #000;
+  color: #fff;
+
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  padding: 30px;
+
+  width: 100%;
+}
+
+ul {
+  margin: auto;
+  padding: auto;
+}
+
+h1 {
+  position: relative;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Noto Sans JP', sans-serif;
+  text-shadow: 0 0 5px #0bf4f3, 0 0 10px #0bf4f3, 0 0 10px #0bf4f3, 0 0 20px #0bf4f3,
+    0 0 80px #0bf4f3;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(245px, 1fr));
+  gap: 65px;
+  width: 100%;
+  padding-left: 0%;
+}

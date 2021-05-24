@@ -18,7 +18,7 @@ function creteGalery(query) {
   });
 }
 
-function downloadMore(query) {
+function loadMore(query) {
   fetchPhoto(query, page).then(array => {
     page += 1;
     refs.ulGallery.insertAdjacentHTML('beforeend', photoCardTpl(array));
@@ -33,4 +33,4 @@ function downloadMore(query) {
   });
 }
 
-export { creteGalery, downloadMore };
+export { creteGalery, loadMore };

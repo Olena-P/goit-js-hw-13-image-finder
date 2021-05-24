@@ -1,5 +1,6 @@
-import { creteGalery, downloadMore } from './renderGalery';
+import { creteGalery, loadMore } from './renderGalery';
 import refs from './refs';
+import onGalleryElClick from './basicLightbox';
 
 refs.formSearch.addEventListener('submit', e => {
   e.preventDefault();
@@ -8,5 +9,7 @@ refs.formSearch.addEventListener('submit', e => {
 
 refs.btnMore.addEventListener('click', e => {
   e.preventDefault();
-  downloadMore(refs.inputForm.value);
+  loadMore(refs.inputForm.value);
 });
+
+refs.ulGallery.addEventListener('click', onGalleryElClick);

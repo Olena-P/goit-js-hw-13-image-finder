@@ -31,4 +31,4 @@ function e(e,n=700){const t=document.scrollingElement||document.documentElement,
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./js/inputListener"),require("./js/button-up");
 },{"./sass/main.scss":"clu1","./js/inputListener":"yMmV","./js/button-up":"v0cT"}]},{},["Focm"], null)
-//# sourceMappingURL=/goit-js-hw-13-image-finder/src.8453bafe.js.map
+//# sourceMappingURL=/goit-js-hw-13-image-finder/src.cc722859.js.map

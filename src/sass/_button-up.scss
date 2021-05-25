@@ -8,6 +8,7 @@
   z-index: 1000;
   cursor: pointer;
   text-align: center;
+  background: none;
   color: #0bf4f3;
   border: 1px solid #0bf4f3;
   box-shadow: 0 0 5px #0bf4f3, 0 0 5px #0bf4f3 inset;
@@ -16,7 +17,7 @@
   transition: all 0.3s ease-in-out;
 }
 #toTop:hover {
-  background: #000;
+  background: none;
   box-shadow: 0 0 5px #0bf4f3, 0 0 5px #0bf4f3 inset;
 }
 
